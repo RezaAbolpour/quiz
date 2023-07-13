@@ -1,0 +1,58 @@
+.parent{
+    background-color: #F1F4FD;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardsetup{
+    width: 600px;
+    height: 300px;
+    background-color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.correctAnswer{
+    color: green;
+    display: flex;
+    justify-content: end;
+}
+.qustion{
+    text-align: center;
+}
+.cardQuiz{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.bodyquiz{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+}
+.bodyquiz div button{
+    background-color: #85C6FC;
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+}
+.nextQustion{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+.nextQustion button{
+    width: 200px;
+    background-color: #FFAD01;
+    border: none;
+    border-radius: 2px;
+    height: 23px;
+    font-weight: 600;
+}
